@@ -14,6 +14,3 @@ yarn serve
 ```
 yarn build
 ```
-
-## TODO
-Items very close together

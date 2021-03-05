@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container has-text-centered">
     <p class="title">Welcome home</p>
     <Clock></Clock>
     <Search></Search>

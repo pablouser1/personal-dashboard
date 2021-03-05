@@ -5,6 +5,7 @@ Vue.use(Vuex)
 
 const defaultConfig = {
   background: '',
+  search: 'google',
   dashboard: []
 }
 
@@ -18,6 +19,12 @@ export default new Vuex.Store({
     },
     setBackground (state, newBackground) {
       state.background = newBackground
+    },
+    setDashboard (state, newDashboard) {
+      state.dashboard = newDashboard
+    },
+    setSearch (state, newSearch) {
+      state.search = newSearch
     }
   },
   actions: {

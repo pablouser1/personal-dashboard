@@ -85,6 +85,11 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+}
+
+.panel-block {
+  color: black;
+  background-color: white;
+  opacity: 75%;
 }
 </style>

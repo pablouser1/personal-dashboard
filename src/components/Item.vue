@@ -15,11 +15,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-.panel-block {
-  color: black;
-  background-color: white;
-  opacity: 75%;
-}
-</style>
